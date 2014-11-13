@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6246" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6239"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MCViewController">
+            <connections>
+                <outlet property="view" destination="pgf-KU-958" id="0MI-0g-7gP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="pgf-KU-958">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mon1.png" translatesAutoresizingMaskIntoConstraints="NO" id="tD4-Tc-Fxk">
+                    <rect key="frame" x="5" y="30" width="46" height="32"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mon2.png" translatesAutoresizingMaskIntoConstraints="NO" id="4iY-rM-jQM">
+                    <rect key="frame" x="5" y="70" width="46" height="32"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mon3.png" translatesAutoresizingMaskIntoConstraints="NO" id="grl-tc-wNJ">
+                    <rect key="frame" x="5" y="110" width="46" height="32"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mon1.png" translatesAutoresizingMaskIntoConstraints="NO" id="kNf-xP-Kl4">
+                    <rect key="frame" x="5" y="188" width="46" height="32"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mon2.png" translatesAutoresizingMaskIntoConstraints="NO" id="HnQ-jM-HMK">
+                    <rect key="frame" x="5" y="228" width="46" height="32"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mon3.png" translatesAutoresizingMaskIntoConstraints="NO" id="rBU-30-yvG">
+                    <rect key="frame" x="5" y="268" width="46" height="32"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.2334358406" green="0.84725288720000003" blue="0.1574212213" alpha="1" colorSpace="calibratedRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="197" y="99"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Mon1.png" width="91" height="91"/>
+        <image name="Mon2.png" width="91" height="91"/>
+        <image name="Mon3.png" width="89" height="105"/>
+    </resources>
+</document>

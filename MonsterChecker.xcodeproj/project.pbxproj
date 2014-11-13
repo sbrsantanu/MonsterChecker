@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0430820019D3FFAC004E6CCB /* HeaderImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 043081FF19D3FFAC004E6CCB /* HeaderImage.png */; };
+		0430820219D415C5004E6CCB /* MCViewControllerSmall.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0430820119D415C5004E6CCB /* MCViewControllerSmall.xib */; };
+		043655BF19C2DB9C00D6551E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043655BE19C2DB9C00D6551E /* Foundation.framework */; };
+		043655C119C2DB9C00D6551E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043655C019C2DB9C00D6551E /* CoreGraphics.framework */; };
+		043655C319C2DB9C00D6551E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043655C219C2DB9C00D6551E /* UIKit.framework */; };
+		043655C919C2DB9C00D6551E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043655C719C2DB9C00D6551E /* InfoPlist.strings */; };
+		043655CB19C2DB9C00D6551E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043655CA19C2DB9C00D6551E /* main.m */; };
+		043655CF19C2DB9C00D6551E /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043655CE19C2DB9C00D6551E /* MCAppDelegate.m */; };
+		043655D219C2DB9C00D6551E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043655D019C2DB9C00D6551E /* Main.storyboard */; };
+		043655D519C2DB9C00D6551E /* MCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043655D419C2DB9C00D6551E /* MCViewController.m */; };
+		043655D719C2DB9C00D6551E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043655D619C2DB9C00D6551E /* Images.xcassets */; };
+		043655DE19C2DB9C00D6551E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043655DD19C2DB9C00D6551E /* XCTest.framework */; };
+		043655DF19C2DB9C00D6551E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043655BE19C2DB9C00D6551E /* Foundation.framework */; };
+		043655E019C2DB9C00D6551E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043655C219C2DB9C00D6551E /* UIKit.framework */; };
+		043655E819C2DB9C00D6551E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043655E619C2DB9C00D6551E /* InfoPlist.strings */; };
+		043655EA19C2DB9C00D6551E /* MonsterCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043655E919C2DB9C00D6551E /* MonsterCheckerTests.m */; };
+		043655F419C2DBF000D6551E /* MCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043655F319C2DBF000D6551E /* MCViewController.xib */; };
+		0436560E19C2E03300D6551E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436560D19C2E03300D6551E /* AVFoundation.framework */; };
+		0436561019C2E04300D6551E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436560F19C2E04300D6551E /* AssetsLibrary.framework */; };
+		0436561219C2E04D00D6551E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436561119C2E04D00D6551E /* CoreMedia.framework */; };
+		0436561419C2E05600D6551E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436561319C2E05600D6551E /* CoreVideo.framework */; };
+		0436561619C2E05D00D6551E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436561519C2E05D00D6551E /* GLKit.framework */; };
+		0436561819C2E06300D6551E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436561719C2E06300D6551E /* ImageIO.framework */; };
+		0436561A19C2E06B00D6551E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436561919C2E06B00D6551E /* MobileCoreServices.framework */; };
+		0436561C19C2E07500D6551E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436561B19C2E07500D6551E /* OpenGLES.framework */; };
+		048F3FE819CDA81100E72819 /* MCViewControllerIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048F3FE719CDA81100E72819 /* MCViewControllerIpad.xib */; };
+		0493923B19CDC61D008BA967 /* bigbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0493923919CDC61D008BA967 /* bigbg.png */; };
+		0493923C19CDC61D008BA967 /* smallbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0493923A19CDC61D008BA967 /* smallbg.png */; };
+		04BB6D4F19C823C800105CCB /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB6D4E19C823C800105CCB /* stop.png */; };
+		04BCAA3E19C6D1870003CC43 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BCAA3C19C6D1870003CC43 /* 1.png */; };
+		04BCAA3F19C6D1870003CC43 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BCAA3D19C6D1870003CC43 /* button.png */; };
+		04BCAA4219C6E6790003CC43 /* bb.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BCAA4019C6E6790003CC43 /* bb.wav */; };
+		04BCAA4319C6E6790003CC43 /* nomonstersfound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04BCAA4119C6E6790003CC43 /* nomonstersfound.mp3 */; };
+		04BCAA4519C6FFAD0003CC43 /* nomonsterfound.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BCAA4419C6FFAD0003CC43 /* nomonsterfound.png */; };
+		04BCAA4819C7095A0003CC43 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BCAA4619C7095A0003CC43 /* facebook.png */; };
+		04BCAA4919C7095A0003CC43 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BCAA4719C7095A0003CC43 /* twitter.png */; };
+		04BCAA4B19C70EAD0003CC43 /* 512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BCAA4A19C70EAD0003CC43 /* 512x512.png */; };
+		04BCD48919CC7ED400F0C296 /* monstercheckermainscreenFINAL.fw.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BCD48819CC7ED400F0C296 /* monstercheckermainscreenFINAL.fw.png */; };
+		04BCD48D19CC7FB100F0C296 /* Mon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BCD48A19CC7FB100F0C296 /* Mon1.png */; };
+		04BCD48E19CC7FB100F0C296 /* Mon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BCD48B19CC7FB100F0C296 /* Mon2.png */; };
+		04BCD48F19CC7FB100F0C296 /* Mon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BCD48C19CC7FB100F0C296 /* Mon3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043655E119C2DB9C00D6551E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043655B319C2DB9C00D6551E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043655BA19C2DB9C00D6551E;
+			remoteInfo = MonsterChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043081FF19D3FFAC004E6CCB /* HeaderImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeaderImage.png; sourceTree = "<group>"; };
+		0430820119D415C5004E6CCB /* MCViewControllerSmall.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCViewControllerSmall.xib; sourceTree = "<group>"; };
+		043655BB19C2DB9C00D6551E /* MonsterChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043655BE19C2DB9C00D6551E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		043655C019C2DB9C00D6551E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		043655C219C2DB9C00D6551E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		043655C619C2DB9C00D6551E /* MonsterChecker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MonsterChecker-Info.plist"; sourceTree = "<group>"; };
+		043655C819C2DB9C00D6551E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		043655CA19C2DB9C00D6551E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043655CC19C2DB9C00D6551E /* MonsterChecker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MonsterChecker-Prefix.pch"; sourceTree = "<group>"; };
+		043655CD19C2DB9C00D6551E /* MCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAppDelegate.h; sourceTree = "<group>"; };
+		043655CE19C2DB9C00D6551E /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
+		043655D119C2DB9C00D6551E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043655D319C2DB9C00D6551E /* MCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCViewController.h; sourceTree = "<group>"; };
+		043655D419C2DB9C00D6551E /* MCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCViewController.m; sourceTree = "<group>"; };
+		043655D619C2DB9C00D6551E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		043655DC19C2DB9C00D6551E /* MonsterCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsterCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043655DD19C2DB9C00D6551E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		043655E519C2DB9C00D6551E /* MonsterCheckerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MonsterCheckerTests-Info.plist"; sourceTree = "<group>"; };
+		043655E719C2DB9C00D6551E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		043655E919C2DB9C00D6551E /* MonsterCheckerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonsterCheckerTests.m; sourceTree = "<group>"; };
+		043655F319C2DBF000D6551E /* MCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCViewController.xib; sourceTree = "<group>"; };
+		0436560D19C2E03300D6551E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0436560F19C2E04300D6551E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0436561119C2E04D00D6551E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0436561319C2E05600D6551E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0436561519C2E05D00D6551E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		0436561719C2E06300D6551E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		0436561919C2E06B00D6551E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0436561B19C2E07500D6551E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		048F3FE719CDA81100E72819 /* MCViewControllerIpad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCViewControllerIpad.xib; sourceTree = "<group>"; };
+		0493923919CDC61D008BA967 /* bigbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigbg.png; sourceTree = "<group>"; };
+		0493923A19CDC61D008BA967 /* smallbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallbg.png; sourceTree = "<group>"; };
+		04BB6D4E19C823C800105CCB /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		04BCAA3C19C6D1870003CC43 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		04BCAA3D19C6D1870003CC43 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		04BCAA4019C6E6790003CC43 /* bb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bb.wav; sourceTree = "<group>"; };
+		04BCAA4119C6E6790003CC43 /* nomonstersfound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nomonstersfound.mp3; sourceTree = "<group>"; };
+		04BCAA4419C6FFAD0003CC43 /* nomonsterfound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nomonsterfound.png; sourceTree = "<group>"; };
+		04BCAA4619C7095A0003CC43 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		04BCAA4719C7095A0003CC43 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		04BCAA4A19C70EAD0003CC43 /* 512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 512x512.png; sourceTree = "<group>"; };
+		04BCD48819CC7ED400F0C296 /* monstercheckermainscreenFINAL.fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monstercheckermainscreenFINAL.fw.png; sourceTree = "<group>"; };
+		04BCD48A19CC7FB100F0C296 /* Mon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mon1.png; sourceTree = "<group>"; };
+		04BCD48B19CC7FB100F0C296 /* Mon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mon2.png; sourceTree = "<group>"; };
+		04BCD48C19CC7FB100F0C296 /* Mon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mon3.png; sourceTree = "<group>"; };
+		04DD744319EE55ED005D437E /* ARCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCHelper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043655B819C2DB9C00D6551E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0436561C19C2E07500D6551E /* OpenGLES.framework in Frameworks */,
+				0436561A19C2E06B00D6551E /* MobileCoreServices.framework in Frameworks */,
+				0436561819C2E06300D6551E /* ImageIO.framework in Frameworks */,
+				0436561619C2E05D00D6551E /* GLKit.framework in Frameworks */,
+				0436561419C2E05600D6551E /* CoreVideo.framework in Frameworks */,
+				0436561219C2E04D00D6551E /* CoreMedia.framework in Frameworks */,
+				0436561019C2E04300D6551E /* AssetsLibrary.framework in Frameworks */,
+				0436560E19C2E03300D6551E /* AVFoundation.framework in Frameworks */,
+				043655C119C2DB9C00D6551E /* CoreGraphics.framework in Frameworks */,
+				043655C319C2DB9C00D6551E /* UIKit.framework in Frameworks */,
+				043655BF19C2DB9C00D6551E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043655D919C2DB9C00D6551E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043655DE19C2DB9C00D6551E /* XCTest.framework in Frameworks */,
+				043655E019C2DB9C00D6551E /* UIKit.framework in Frameworks */,
+				043655DF19C2DB9C00D6551E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043655B219C2DB9C00D6551E = {
+			isa = PBXGroup;
+			children = (
+				04BCAA2D19C6C4630003CC43 /* SimpleCam */,
+				043655C419C2DB9C00D6551E /* MonsterChecker */,
+				043655E319C2DB9C00D6551E /* MonsterCheckerTests */,
+				043655BD19C2DB9C00D6551E /* Frameworks */,
+				043655BC19C2DB9C00D6551E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043655BC19C2DB9C00D6551E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043655BB19C2DB9C00D6551E /* MonsterChecker.app */,
+				043655DC19C2DB9C00D6551E /* MonsterCheckerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043655BD19C2DB9C00D6551E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0436561B19C2E07500D6551E /* OpenGLES.framework */,
+				0436561919C2E06B00D6551E /* MobileCoreServices.framework */,
+				0436561719C2E06300D6551E /* ImageIO.framework */,
+				0436561519C2E05D00D6551E /* GLKit.framework */,
+				0436561319C2E05600D6551E /* CoreVideo.framework */,
+				0436561119C2E04D00D6551E /* CoreMedia.framework */,
+				0436560F19C2E04300D6551E /* AssetsLibrary.framework */,
+				0436560D19C2E03300D6551E /* AVFoundation.framework */,
+				043655BE19C2DB9C00D6551E /* Foundation.framework */,
+				043655C019C2DB9C00D6551E /* CoreGraphics.framework */,
+				043655C219C2DB9C00D6551E /* UIKit.framework */,
+				043655DD19C2DB9C00D6551E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		043655C419C2DB9C00D6551E /* MonsterChecker */ = {
+			isa = PBXGroup;
+			children = (
+				04BCAA4619C7095A0003CC43 /* facebook.png */,
+				04BB6D4E19C823C800105CCB /* stop.png */,
+				0493923919CDC61D008BA967 /* bigbg.png */,
+				043081FF19D3FFAC004E6CCB /* HeaderImage.png */,
+				0493923A19CDC61D008BA967 /* smallbg.png */,
+				04BCAA4719C7095A0003CC43 /* twitter.png */,
+				043655F519C2DF3D00D6551E /* cameracontrol */,
+				043655CD19C2DB9C00D6551E /* MCAppDelegate.h */,
+				043655CE19C2DB9C00D6551E /* MCAppDelegate.m */,
+				043655D019C2DB9C00D6551E /* Main.storyboard */,
+				043655D319C2DB9C00D6551E /* MCViewController.h */,
+				04BCAA4019C6E6790003CC43 /* bb.wav */,
+				04BCAA4119C6E6790003CC43 /* nomonstersfound.mp3 */,
+				04BCAA4A19C70EAD0003CC43 /* 512x512.png */,
+				04BCAA4419C6FFAD0003CC43 /* nomonsterfound.png */,
+				04BCAA3C19C6D1870003CC43 /* 1.png */,
+				04BCAA3D19C6D1870003CC43 /* button.png */,
+				04DD744319EE55ED005D437E /* ARCHelper.h */,
+				043655D419C2DB9C00D6551E /* MCViewController.m */,
+				04BCD48819CC7ED400F0C296 /* monstercheckermainscreenFINAL.fw.png */,
+				04BCD48A19CC7FB100F0C296 /* Mon1.png */,
+				04BCD48B19CC7FB100F0C296 /* Mon2.png */,
+				04BCD48C19CC7FB100F0C296 /* Mon3.png */,
+				043655F319C2DBF000D6551E /* MCViewController.xib */,
+				0430820119D415C5004E6CCB /* MCViewControllerSmall.xib */,
+				048F3FE719CDA81100E72819 /* MCViewControllerIpad.xib */,
+				043655D619C2DB9C00D6551E /* Images.xcassets */,
+				043655C519C2DB9C00D6551E /* Supporting Files */,
+			);
+			path = MonsterChecker;
+			sourceTree = "<group>";
+		};
+		043655C519C2DB9C00D6551E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				043655C619C2DB9C00D6551E /* MonsterChecker-Info.plist */,
+				043655C719C2DB9C00D6551E /* InfoPlist.strings */,
+				043655CA19C2DB9C00D6551E /* main.m */,
+				043655CC19C2DB9C00D6551E /* MonsterChecker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		043655E319C2DB9C00D6551E /* MonsterCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				043655E919C2DB9C00D6551E /* MonsterCheckerTests.m */,
+				043655E419C2DB9C00D6551E /* Supporting Files */,
+			);
+			path = MonsterCheckerTests;
+			sourceTree = "<group>";
+		};
+		043655E419C2DB9C00D6551E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				043655E519C2DB9C00D6551E /* MonsterCheckerTests-Info.plist */,
+				043655E619C2DB9C00D6551E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		043655F519C2DF3D00D6551E /* cameracontrol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = cameracontrol;
+			sourceTree = "<group>";
+		};
+		04BCAA2D19C6C4630003CC43 /* SimpleCam */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SimpleCam;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043655BA19C2DB9C00D6551E /* MonsterChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043655ED19C2DB9C00D6551E /* Build configuration list for PBXNativeTarget "MonsterChecker" */;
+			buildPhases = (
+				043655B719C2DB9C00D6551E /* Sources */,
+				043655B819C2DB9C00D6551E /* Frameworks */,
+				043655B919C2DB9C00D6551E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonsterChecker;
+			productName = MonsterChecker;
+			productReference = 043655BB19C2DB9C00D6551E /* MonsterChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043655DB19C2DB9C00D6551E /* MonsterCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043655F019C2DB9C00D6551E /* Build configuration list for PBXNativeTarget "MonsterCheckerTests" */;
+			buildPhases = (
+				043655D819C2DB9C00D6551E /* Sources */,
+				043655D919C2DB9C00D6551E /* Frameworks */,
+				043655DA19C2DB9C00D6551E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043655E219C2DB9C00D6551E /* PBXTargetDependency */,
+			);
+			name = MonsterCheckerTests;
+			productName = MonsterCheckerTests;
+			productReference = 043655DC19C2DB9C00D6551E /* MonsterCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043655B319C2DB9C00D6551E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sbrtech;
+				TargetAttributes = {
+					043655DB19C2DB9C00D6551E = {
+						TestTargetID = 043655BA19C2DB9C00D6551E;
+					};
+				};
+			};
+			buildConfigurationList = 043655B619C2DB9C00D6551E /* Build configuration list for PBXProject "MonsterChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043655B219C2DB9C00D6551E;
+			productRefGroup = 043655BC19C2DB9C00D6551E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043655BA19C2DB9C00D6551E /* MonsterChecker */,
+				043655DB19C2DB9C00D6551E /* MonsterCheckerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043655B919C2DB9C00D6551E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048F3FE819CDA81100E72819 /* MCViewControllerIpad.xib in Resources */,
+				043655F419C2DBF000D6551E /* MCViewController.xib in Resources */,
+				04BCAA3F19C6D1870003CC43 /* button.png in Resources */,
+				043655D719C2DB9C00D6551E /* Images.xcassets in Resources */,
+				04BCAA4219C6E6790003CC43 /* bb.wav in Resources */,
+				043655C919C2DB9C00D6551E /* InfoPlist.strings in Resources */,
+				04BCAA4319C6E6790003CC43 /* nomonstersfound.mp3 in Resources */,
+				04BCAA4B19C70EAD0003CC43 /* 512x512.png in Resources */,
+				04BCD48E19CC7FB100F0C296 /* Mon2.png in Resources */,
+				0430820019D3FFAC004E6CCB /* HeaderImage.png in Resources */,
+				04BCAA4919C7095A0003CC43 /* twitter.png in Resources */,
+				04BCD48F19CC7FB100F0C296 /* Mon3.png in Resources */,
+				04BCD48919CC7ED400F0C296 /* monstercheckermainscreenFINAL.fw.png in Resources */,
+				04BCAA4519C6FFAD0003CC43 /* nomonsterfound.png in Resources */,
+				0493923B19CDC61D008BA967 /* bigbg.png in Resources */,
+				04BCAA4819C7095A0003CC43 /* facebook.png in Resources */,
+				04BB6D4F19C823C800105CCB /* stop.png in Resources */,
+				0493923C19CDC61D008BA967 /* smallbg.png in Resources */,
+				0430820219D415C5004E6CCB /* MCViewControllerSmall.xib in Resources */,
+				04BCD48D19CC7FB100F0C296 /* Mon1.png in Resources */,
+				043655D219C2DB9C00D6551E /* Main.storyboard in Resources */,
+				04BCAA3E19C6D1870003CC43 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043655DA19C2DB9C00D6551E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043655E819C2DB9C00D6551E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043655B719C2DB9C00D6551E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043655CF19C2DB9C00D6551E /* MCAppDelegate.m in Sources */,
+				043655D519C2DB9C00D6551E /* MCViewController.m in Sources */,
+				043655CB19C2DB9C00D6551E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043655D819C2DB9C00D6551E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043655EA19C2DB9C00D6551E /* MonsterCheckerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043655E219C2DB9C00D6551E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043655BA19C2DB9C00D6551E /* MonsterChecker */;
+			targetProxy = 043655E119C2DB9C00D6551E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		043655C719C2DB9C00D6551E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043655C819C2DB9C00D6551E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		043655D019C2DB9C00D6551E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043655D119C2DB9C00D6551E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043655E619C2DB9C00D6551E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043655E719C2DB9C00D6551E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043655EB19C2DB9C00D6551E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Fry (LN3U28C74S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: James Fry (LN3U28C74S)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c24689d5-a223-43c6-bbd3-56b014cbb638";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		043655EC19C2DB9C00D6551E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Fry (LN3U28C74S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: James Fry (LN3U28C74S)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "c24689d5-a223-43c6-bbd3-56b014cbb638";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043655EE19C2DB9C00D6551E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Fry (LN3U28C74S)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonsterChecker/MonsterChecker-Prefix.pch";
+				INFOPLIST_FILE = "MonsterChecker/MonsterChecker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c24689d5-a223-43c6-bbd3-56b014cbb638";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		043655EF19C2DB9C00D6551E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Fry (LN3U28C74S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: James Fry (LN3U28C74S)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonsterChecker/MonsterChecker-Prefix.pch";
+				INFOPLIST_FILE = "MonsterChecker/MonsterChecker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c24689d5-a223-43c6-bbd3-56b014cbb638";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		043655F119C2DB9C00D6551E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MonsterChecker.app/MonsterChecker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonsterChecker/MonsterChecker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MonsterCheckerTests/MonsterCheckerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		043655F219C2DB9C00D6551E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MonsterChecker.app/MonsterChecker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonsterChecker/MonsterChecker-Prefix.pch";
+				INFOPLIST_FILE = "MonsterCheckerTests/MonsterCheckerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043655B619C2DB9C00D6551E /* Build configuration list for PBXProject "MonsterChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043655EB19C2DB9C00D6551E /* Debug */,
+				043655EC19C2DB9C00D6551E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043655ED19C2DB9C00D6551E /* Build configuration list for PBXNativeTarget "MonsterChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043655EE19C2DB9C00D6551E /* Debug */,
+				043655EF19C2DB9C00D6551E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043655F019C2DB9C00D6551E /* Build configuration list for PBXNativeTarget "MonsterCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043655F119C2DB9C00D6551E /* Debug */,
+				043655F219C2DB9C00D6551E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043655B319C2DB9C00D6551E /* Project object */;
+}
